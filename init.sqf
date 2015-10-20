@@ -88,6 +88,8 @@ if (hasInterface || isServer) then
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 	//Toxic Gas script added Oct 20th 2015
 	[] execVM "addons\ToxicGas\ToxicGas.sqf";
+	//Airdrop added Oct 20th 2015
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
 };
 
 //statusbar script added oct 19th by swine
