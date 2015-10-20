@@ -165,7 +165,7 @@ throwputArray = compileFinal str
 	["Smoke Grenade (White)", "SmokeShell", 50],
 	["Smoke Grenade (Purple)", "SmokeShellPurple", 50],
 	["Smoke Grenade (Blue)", "SmokeShellBlue", 50],
-	["Smoke Grenade (Green)", "SmokeShellGreen", 50],
+	["Toxic Gas Grenade", "SmokeShellGreen", 500],
 	["Smoke Grenade (Yellow)", "SmokeShellYellow", 50],
 	["Smoke Grenade (Orange)", "SmokeShellOrange", 50],
 	["Smoke Grenade (Red)", "SmokeShellRed", 50]
@@ -319,9 +319,9 @@ headArray = compileFinal str
 	["Heli Crew Helmet (NATO)", "H_CrewHelmetHeli_B", 50, "hat"],
 	["Heli Crew Helmet (CSAT)", "H_CrewHelmetHeli_O", 50, "hat"],
 	["Heli Crew Helmet (AAF)", "H_CrewHelmetHeli_I", 50, "hat"],
-	["Heli Pilot Helmet (NATO)", "H_PilotHelmetHeli_B", 50, "hat"],
-	["Heli Pilot Helmet (CSAT)", "H_PilotHelmetHeli_O", 50, "hat"],
-	["Heli Pilot Helmet (AAF)", "H_PilotHelmetHeli_I", 50, "hat"],
+	["Gas Mask (NATO)", "H_CrewHelmetHeli_B", 1000, "hat"],
+	["Gas Mask (CSAT)", "H_CrewHelmetHeli_O", 1000, "hat"],
+	["Gas Mask (AAF)", "H_CrewHelmetHeli_I", 1000, "hat"],
 	["Crew Helmet (NATO)", "H_HelmetCrew_B", 50, "hat"],
 	["Crew Helmet (CSAT)", "H_HelmetCrew_O", 50, "hat"],
 	["Crew Helmet (AAF)", "H_HelmetCrew_I", 50, "hat"],
@@ -388,10 +388,10 @@ headArray = compileFinal str
 	["Cap (SAS)", "H_Cap_khaki_specops_UK", 10, "hat"],
 	["Cap (SF)", "H_Cap_tan_specops_US", 10, "hat"],
 	["Cap (SPECOPS)", "H_Cap_brn_SPECOPS", 10, "hat"],
-	["Shemag (White)", "H_ShemagOpen_khk", 25, "hat"],
-	["Shemag (Brown)", "H_ShemagOpen_tan", 25, "hat"],
-	["Shemag mask (Khaki)", "H_Shemag_khk", 25, "hat"],
-	["Shemag mask (Olive)", "H_Shemag_olive", 25, "hat"],
+	["Wet Rags (white) [for gas]", "H_ShemagOpen_khk", 250, "hat"],
+	["Wet Rags (Brown) [for gas]", "H_ShemagOpen_tan", 250, "hat"],
+	["Wet Rags (Khaki) [for gas]", "H_Shemag_khk", 250, "hat"],
+	["Wet Rags (Olive) [for gas]", "H_Shemag_olive", 250, "hat"],
 	// ["Shemag mask (Tan)", "H_Shemag_tan", 25, "hat"],
 	["Racing Helmet (Black)", "H_RacingHelmet_1_black_F", 25, "hat"],
 	["Racing Helmet (Blue)", "H_RacingHelmet_1_blue_F", 25, "hat"],
@@ -404,6 +404,7 @@ headArray = compileFinal str
 	["Racing Helmet (Bluking)", "H_RacingHelmet_2_F", 25, "hat"],
 	["Racing Helmet (Redstone)", "H_RacingHelmet_3_F", 25, "hat"],
 	["Racing Helmet (Vrana)", "H_RacingHelmet_4_F", 25, "hat"]
+	
 ];
 
 uniformArray = compileFinal str

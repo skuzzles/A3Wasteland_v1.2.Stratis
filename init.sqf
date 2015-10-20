@@ -86,6 +86,8 @@ if (hasInterface || isServer) then
 	[] execVM "addons\outlw_magRepack\MagRepack_init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
+	//Toxic Gas script added Oct 20th 2015
+	[] execVM "addons\ToxicGas\ToxicGas.sqf";
 };
 
 //statusbar script added oct 19th by swine
