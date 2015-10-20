@@ -1,4 +1,4 @@
-# A3Wasteland Stratis
+# A3Wasteland Stratis (Edited by the swine)
 
 A3Wasteland is a survival-like combat sandbox, which incorporates elements of team deathmatch and sector control in one big fun-to-play package. Similar to DayZ, the objectives are to scavenge weapons and vehicles, team up with fellow players, and engage in combat to obtain control of the landscape. Best experienced with 50 or more players. 
 
@@ -20,6 +20,8 @@ For questions and support, please visit our [forums](http://forums.a3wasteland.c
 * Torndeco
 * [404] Del1te
 
+Swine edits
+- StatusBar port from epoch by Cr3ampie
 A list of other contributors can be found in the "Credits" section from the in-game map menu, or near the bottom of `briefing.sqf`
 
 ---
