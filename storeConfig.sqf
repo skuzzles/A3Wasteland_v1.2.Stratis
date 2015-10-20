@@ -165,10 +165,10 @@ throwputArray = compileFinal str
 	["Smoke Grenade (White)", "SmokeShell", 50],
 	["Smoke Grenade (Purple)", "SmokeShellPurple", 50],
 	["Smoke Grenade (Blue)", "SmokeShellBlue", 50],
-	["Toxic Gas Grenade", "SmokeShellGreen", 500],
 	["Smoke Grenade (Yellow)", "SmokeShellYellow", 50],
 	["Smoke Grenade (Orange)", "SmokeShellOrange", 50],
-	["Smoke Grenade (Red)", "SmokeShellRed", 50]
+	["Smoke Grenade (Red)", "SmokeShellRed", 50],
+	["Toxic Gas Grenade", "SmokeShellGreen", 500]
 ];
 
 //Gun Store Ammo List
