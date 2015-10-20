@@ -22,6 +22,7 @@ For questions and support, please visit our [forums](http://forums.a3wasteland.c
 
 Swine edits
 - StatusBar port from epoch by Cr3ampie
+
 A list of other contributors can be found in the "Credits" section from the in-game map menu, or near the bottom of `briefing.sqf`
 
 ---
