@@ -12,6 +12,7 @@ APOC_AA_VehOptions =
 
 APOC_AA_SupOptions =
 [// ["stringItemName", 	"Crate Type for fn_refillBox 	,Price," drop type"]
+["Grenadier Weapon Kit", 	"grenadier_WP_Kit", 		5000, "supply"],
 ["Launchers", 			"mission_USLaunchers", 			35000, "supply"],
 ["Assault Rifle", 		"mission_USSpecial", 			35000, "supply"],
 ["Sniper Rifles", 		"airdrop_Snipers", 				50000, "supply"],
