@@ -113,11 +113,12 @@ switch (_boxType) do
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
 			["wep", ["arifle_MX_GL_Hamr_pointer_F", "arifle_MX_GL_ACO_F", "arifle_MX_GL_Black_Hamr_pointer_F", "arifle_MX_GL_Black_F"], 4,4],
+			["wep", ["launch_RPG32_F", "launch_NLAW_F", "launch_Titan_short_F"], RANDOM_BETWEEN(3,5), 1],
 			["itm", ["V_PlateCarrierIAGL_dgtl", "H_PilotHelmetFighter_O", "H_RacingHelmet_3_F"], RANDOM_BETWEEN(4,8)],
 			["bac", ["B_Carryall_mcamo", "B_Kitbag_mcamo"], RANDOM_BETWEEN(2,5)],
-			["itm", ["G_40mm_HE", "G_40mm_Smoke"], 12],
+			["mag", ["G_40mm_HE", "G_40mm_Smoke"], RANDOM_BETWEEN(6,10)],
 			["itm", ["optic_NVS","optic_AMS","optic_SOS","optic_KHS_blk"], RANDOM_BETWEEN(3,5)],
-			["itm", ["muzzle_snds_H", "muzzle_snds_M", "muzzle_snds_H_MG", "bipod_02_F_blk"], RANDOM_BETWEEN(3,5)]
+			["itm", ["muzzle_snds_H", "muzzle_snds_M", "muzzle_snds_H_MG", "bipod_02_F_blk"], RANDOM_BETWEEN(3,5)],
 		];
 	};
 };

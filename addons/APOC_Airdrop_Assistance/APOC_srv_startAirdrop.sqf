@@ -187,7 +187,7 @@ WaitUntil {(((position _object) select 2) < (_flyHeight-20))};
 		_para = createVehicle ["B_Parachute_02_F", _objectPosDrop, [], 0, ""];
 		_object attachTo [_para,[0,0,-1.5]];
 
-		_smoke1= "SmokeShellGreen" createVehicle getPos _object;
+		_smoke1= "SmokeShellYellow" createVehicle getPos _object;
 		_smoke1 attachto [_object,[0,0,-0.5]];
 		_flare1= "F_40mm_Green" createVehicle getPos _object;
 		_flare1 attachto [_object,[0,0,-0.5]];
@@ -196,7 +196,7 @@ WaitUntil {(((position _object) select 2) < (_flyHeight-20))};
 
 WaitUntil {((((position _object) select 2) < 1) || (isNil "_para"))};
 		detach _object;
-		_smoke2= "SmokeShellGreen" createVehicle getPos _object;
+		_smoke2= "SmokeShellRed" createVehicle getPos _object;
 		//_smoke2 attachto [_object,[0,0,-0.5]];
 		_flare2= "F_40mm_Green" createVehicle getPos _object;
 		//_flare2 attachto [_object,[0,0,-0.5]];
