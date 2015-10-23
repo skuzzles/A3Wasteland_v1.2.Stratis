@@ -90,6 +90,9 @@ if (hasInterface || isServer) then
 	[] execVM "addons\ToxicGas\ToxicGas.sqf";
 	//Airdrop added Oct 20th 2015
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
+	//Heli crash sites
+	ETG_Cargo_Drop_Mission = 0;
+	_nul = execVM "addons\helicrash\ETG_HeliCrashAndDropScript.sqf";
 };
 
 //statusbar script added oct 19th by swine

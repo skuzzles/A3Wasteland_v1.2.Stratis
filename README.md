@@ -21,9 +21,12 @@ For questions and support, please visit our [forums](http://forums.a3wasteland.c
 * [404] Del1te
 
 Swine edits
-- StatusBar port from epoch by Cr3ampie Oct 19th 2015
-- Airdrop system added Oct 20th 2015
-- Toxic Gas added Oct 20th 2015
+- Oct 19th 2015
+-- StatusBar port from epoch by Cr3ampie 
+-- Airdrop system added 
+-- Toxic Gas added
+-- Helicrash sites added 
+-- Started to create a new northern town, eventually will become a nice PVP area. 
 
 A list of other contributors can be found in the "Credits" section from the in-game map menu, or near the bottom of `briefing.sqf`
 
