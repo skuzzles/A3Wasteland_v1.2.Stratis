@@ -66,12 +66,6 @@
 		<Key ID="STR_WL_ShopDescriptions_CanFood">
 			<English>The Greek wastelands may get you hungry!</English>
 		</Key>
-		<Key ID="STR_WL_ShopDescriptions_RepairKit">
-			<English>With this kit, you won't need an engineer!</English>
-		</Key>
-		<Key ID="STR_WL_ShopDescriptions_MedKit">
-			<English>With this kit, you won't need a medic!</English>
-		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelFull">
 			<English>25 litres of pure unleaded fuel!</English>
 		</Key>
