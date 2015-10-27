@@ -9,7 +9,7 @@
 if (!isServer) exitwith {};
 #include "sideMissionDefines.sqf";
 
-private ["_convoyVeh", "_veh1", "_veh2", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_numWaypoints", "_drop_item", "_drugpilerandomizer", "_drugpile"];
+private ["_convoyVeh", "_veh1", "_veh2", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_numWaypoints", "_drop_item", "_drugpilerandomizer", "_drugpile", "_explosivePos", "_explosive"];
 
 _setupVars =
 {
@@ -106,7 +106,7 @@ _setupObjects =
 	_missionPicture = getText (configFile >> "CfgVehicles" >> _veh1 >> "picture");
 	_vehicleName = getText (configFile >> "CfgVehicles" >> _veh1 >> "displayName");
 
-	_missionHintText = format ["Drugrunners driving a <t color='%2'>%1</t> are moving drugs around Altis. Stop them quickly!", _vehicleName, sideMissionColor];
+	_missionHintText = format ["Drugs runners driving a <t color='%2'>%1</t> are moving drugs around Stratis. Stop them quickly!", _vehicleName, sideMissionColor];
 
 	_numWaypoints = count waypoints _aiGroup;
 };
@@ -156,7 +156,11 @@ _successExec =
 	  [_item, _lastPos] call _drop_item;
 	};
 	
-	_successHintMessage = "You have stopped the drugrunners! The drugs are yours to take!";
+	_explosivePos = getPosATL (_vehicles select 0);
+	_explosive = createMine ["SatchelCharge_F", _explosivePos, [], 0];
+	_explosive setDamage 1;
+
+	_successHintMessage = "You have stopped the drugs runners but they blew up their car! The drugs are yours to take!";
 };
 
 _this call sideMissionProcessor;

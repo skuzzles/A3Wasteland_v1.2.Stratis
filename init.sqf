@@ -80,23 +80,20 @@ if (isServer) then
 if (hasInterface || isServer) then
 {
 	//init 3rd Party Scripts
-	[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 	[] execVM "addons\proving_ground\init.sqf";
+	[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 	[] execVM "addons\JumpMF\init.sqf";
-	[] execVM "addons\outlw_magRepack\MagRepack_init.sqf";
+	[] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
-	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
-	//Toxic Gas script added Oct 20th 2015
+	[] execVM "addons\EtV\init.sqf";
 	[] execVM "addons\ToxicGas\ToxicGas.sqf";
-	//Airdrop added Oct 20th 2015
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
-	//Heli crash sites
+	[] execVM "addons\laptop\init.sqf";                   // Addon for hack laptop mission
+	[] execVM "addons\vactions\functions.sqf";
+	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";     // Fastrope
+	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
+
 	ETG_Cargo_Drop_Mission = 0;
 	_nul = execVM "addons\helicrash\ETG_HeliCrashAndDropScript.sqf";
-};
-
-//statusbar script added oct 19th by swine
-if(hasInterface) then {
-	[] execVM "addons\statusBar\statusbar.sqf"
 };
 

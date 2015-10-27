@@ -81,6 +81,21 @@ _items = _this select 1;
 					_vehicle addItemCargoGlobal [_class, _quantity];
 				};
 			};
+			case "B":
+			{
+				if (typeName _class == "ARRAY") then
+				{
+					for "_i" from 1 to _quantity do
+					{
+						_randomClass = _class call BIS_fnc_selectRandom;
+						_vehicle addBackpackCargoGlobal [_randomClass, 1];
+					};
+				}
+				else
+				{
+					_vehicle addBackpackCargoGlobal [_class, _quantity];
+				};
+			};	
 		};
 	};
 } forEach _items;
